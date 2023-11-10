@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "Kirby42Bot"
+version = "0.1.0"
+description = "A bot to vacuum messages from twitch and discord for eternal significance."
+authors = ["Wes Brooks <wes@lightworks.team>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+logging = "^0.4.9.6"
+google-cloud-bigquery = "^3.13.0"
+posthog = "^3.0.2"
+datadog = "^0.47.0"
+pandas = "^2.1.2"
+openai = "^1.2.2"
+beautifulsoup4 = "^4.12.2"
+JSON-log-formatter = "^0.5.2"
+requests = "^2.31.0"
+SQLAlchemy = "^2.0.23"
+numpy = "^1.26.1"
+ipython = "^8.17.2"
+fastapi = "^0.104.1"
+google-api-python-client = "^2.107.0"
+uvicorn = "^0.24.0.post1"
+ipykernel = "^6.26.0"
+langchain = "^0.0.333"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+docker = "^6.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
