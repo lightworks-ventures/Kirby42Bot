@@ -5,7 +5,7 @@ import requests
 from datetime import datetime
 import json
 from google.cloud import bigquery as bq
-from config import oauth_pw
+from config import oauth_pw, key_json
 
 # Create a logger instance
 logger = logging.getLogger(__name__)
@@ -16,7 +16,7 @@ token = oauth_pw
 channels = ["#dashy", "#luxdigitalchurch", "#jatelive", "#pastorskar"]
 
 # # Initialize a BigQuery Client
-client = bq.Client.from_service_account_json("key.json")
+client = bq.Client.from_service_account_json(key_json)
 
 table_id = 'kirby42bot.twitch_chats.twitch_chat_log'
 table = client.get_table(table_id)
