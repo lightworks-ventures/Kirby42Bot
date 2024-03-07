@@ -29,6 +29,7 @@ This file can be used as a debugging tool of the twitch-irc.py file
 - Improve the Gradio prototype for analyzing chats.
 - Use LLMs to extract key topics and interests per livestream, and per user.
 - Highlight key words / topics / issues relevant to the stream owner, i.e. when someone has asked for prayer or other key things.
+- Capture a transcript of the livestream to capture the streamer's conversation as well. This would enable greater context to the live discussion and what was being discussed.
 
 ### Integrations:
 - Integrate with YouTube Live to accomplish the same thing that we're doing with Twitch -- <https://developers.google.com/youtube/v3/live/docs/liveChatMessages/list>.
