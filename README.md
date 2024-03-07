@@ -18,8 +18,13 @@ This file can be used as a debugging tool of the twitch-irc.py file
 - creat your own BigQuery key.json file 
 -->
 
+## Starting the System:
+- To kick off the twitch listener, type `python3 Kirby42Bot/twitch-irc.py` into the terminal.
+- To kick off the gradio interface locally, type `python3 Kirby42Bot/kirby_gradio.py` into the terminal.
+
 ## Future Opportunities:
 ### General:
+- Make these scripts deployable so they can run on an independent server and be "always-on".
 - Make it easier to choose / update which accounts/channels/etc that are being ingested.
 - Improve the Gradio prototype for analyzing chats.
 - Use LLMs to extract key topics and interests per livestream, and per user.
