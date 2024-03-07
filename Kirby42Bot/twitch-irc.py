@@ -13,11 +13,11 @@ logger = logging.getLogger(__name__)
 # twitch info
 nickname = "Kirby42Bot"
 token = oauth_pw
-channels = ["#dashy", 
-            "#luxdigitalchurch",
+channels = ["#luxdigitalchurch",
             "#jatelive", 
             "#pastorskar", 
-            "#souzylive"]
+            "#souzylive",
+            "#godsquadchurch"]
 
 # # Initialize a BigQuery Client
 client = bq.Client.from_service_account_json("key.json")
